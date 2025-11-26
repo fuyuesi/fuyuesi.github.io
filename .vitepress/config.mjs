@@ -8,8 +8,7 @@ export default defineConfig({
     // 顶部导航
     nav: [
       { text: '首页', link: '/' },
-      { text: '大模型', link: '/notes/llm-transformer' },
-      { text: '机器学习', link: '/notes/ml-metrics' }
+      { text: '大模型', link: '/notes/llm-transformer' }
     ],
 
     // 左侧侧边栏
@@ -18,18 +17,6 @@ export default defineConfig({
         text: '大模型与算法',
         items: [
           { text: 'Transformer 与 LoRA', link: '/notes/llm-transformer' },
-        ]
-      },
-      {
-        text: '机器学习基础',
-        items: [
-          { text: '准确率与召回率', link: '/notes/ml-metrics' },
-        ]
-      },
-      {
-        text: '前沿技术',
-        items: [
-          { text: 'VLM 文档理解', link: '/notes/vlm-ocr' }
         ]
       }
     ],
