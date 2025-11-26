@@ -1,0 +1,27 @@
+{
+  "name": "fuyuesi.github.io",
+  "version": "1.0.0",
+  "description": "幻想乡",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "docs:dev": "vitepress dev",
+    "docs:build": "vitepress build",
+    "docs:preview": "vitepress preview"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fuyuesi/fuyuesi.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/fuyuesi/fuyuesi.github.io/issues"
+  },
+  "homepage": "https://github.com/fuyuesi/fuyuesi.github.io#readme",
+  "devDependencies": {
+    "vitepress": "^1.6.4"
+  }
+}
